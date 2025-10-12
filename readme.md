@@ -27,3 +27,7 @@ Before you begin, ensure you have:
 - **3D Slicer (optional)** with MONAI Label Plugin
 
 > 💡 Tip: Use a virtual environment (`venv` or `conda`) to keep dependencies isolated.
+
+
+
+pip install torch==2.5.1 torchvision torchaudio --force-reinstall
