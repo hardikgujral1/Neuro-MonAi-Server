@@ -10,7 +10,7 @@ data = [img.get_fdata() for img in imgs]
 # Stack along last axis (H, W, D, C)
 stacked = np.stack(data, axis=-1)  # shape: (H, W, D, 4)
 
-# Use affine from first image
+# Use affine from first images
 affine = imgs[0].affine
 
 # Save combined NIfTI

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load segmentation
-seg = nib.load("tmp9jqd369z.nii.gz").get_fdata()
+seg = nib.load("tmp51s26fr8.nii.gz").get_fdata()
 
 # Pick a slice to visualize
 slice_index = seg.shape[2] // 2  # middle slice
