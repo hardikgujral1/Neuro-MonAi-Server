@@ -1,0 +1,1 @@
+[2025-10-12 13:09:45,748] [71431] [MainThread] [INFO] (monailabel.interfaces.utils.app:37) - Initializing App from: /Users/hardikgujral/PHD/MonAi Server/monaibundle/model/brats_mri_segmentation/models; studies: /Users/hardikgujral/PHD/MonAi Server/monaibundle/model/brats_mri_segmentation/models/Brats_Data; conf: {'models': 'brats_mri_segmentation'}
