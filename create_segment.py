@@ -7,7 +7,6 @@ files = {"file": open("combined_4mod.nii.gz", "rb")}
 data = {"params": "{}"}
 
 response = requests.post(url, files=files, data=data)
-
 # Decode multipart response
 multipart_data = decoder.MultipartDecoder.from_response(response)
 
