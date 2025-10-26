@@ -31,3 +31,5 @@ Before you begin, ensure you have:
 
 
 pip install torch==2.5.1 torchvision torchaudio --force-reinstall
+```bash
+monailabel start_server --app monaibundle --studies Brats_Data --conf models brats_segmentation
