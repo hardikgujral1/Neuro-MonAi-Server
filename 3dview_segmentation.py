@@ -5,7 +5,7 @@ from skimage import measure
 
 # === Load MRI and segmentation ===
 combined_path = "combined_4mod.nii.gz"
-seg_path = "tmp__62r7_2.nii.gz"
+seg_path = "tmp_nrjndwp.nii.gz"
 
 combined = nib.load(combined_path).get_fdata()
 seg = nib.load(seg_path).get_fdata()

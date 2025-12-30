@@ -12,7 +12,7 @@ view = 'axial'  # options: 'axial', 'coronal', 'sagittal'
 # Load MRI and tumor mask
 # -------------------------
 mri_path = "combined_4mod.nii.gz"
-mask_path = "tmp__62r7_2.nii.gz"
+mask_path = "tmp_nrjndwp.nii.gz"
 
 mri_nii = nib.load(mri_path)
 mask_nii = nib.load(mask_path)
