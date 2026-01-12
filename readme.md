@@ -28,8 +28,9 @@ Before you begin, ensure you have:
 
 > 💡 Tip: Use a virtual environment (`venv` or `conda`) to keep dependencies isolated.
 
+pyenv local 3.10.1
 
 
 pip install torch==2.5.1 torchvision torchaudio --force-reinstall
 ```bash
-monailabel start_server --app monaibundle --studies Brats_Data --conf models brats_segmentation
+monailabel start_server --app monaibundle --studies Brats_Data --conf models brats_mri_segmentation
